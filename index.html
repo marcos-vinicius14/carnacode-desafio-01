@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
     <title>IMC</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+    <div class="container__form">
+        <h1>Cálculo de IMC</h1>
+        <form class="form-control">
+            <input type="text" name="altura" class="form-input" placeholder="Altura">
+            <input type="text" name="peso" class="form-input" placeholder="Peso">
+            <input type="text" name="sexo" class="form-input" placeholder="Sexo">
+        </form>
     </div>
-    <div>
-        <input class="input" type="text" />
+
+    <div class="container__check-box">
+        <input type="checkbox" name="">
+        <label>Eu tenho mais de 65 anos</label>
     </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
+
+    <div class="container__buttons">
+        <button class="btn-submit" type="submit">Calcular meu IMC</button>
+        <a href="#"><button class="btn-info">Entenda o cálculo</button></a>
+    </div>
+
 </body>
 
 </html>
