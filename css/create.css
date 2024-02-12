@@ -15,6 +15,8 @@ body {
     justify-content: center;
     align-items: center;
 
+    overflow: hidden;
+
 }
 
 main {
@@ -31,7 +33,7 @@ main {
     align-items: center;
 
     width: 34rem;
-    height: 46rem;
+    height: 58.6rem;
 
     background-color: white;
 
@@ -39,7 +41,7 @@ main {
 
     z-index: -1;
 
-    margin-top: 16rem;
+    margin-top: 8rem;
 
 
     position: relative;
@@ -60,7 +62,7 @@ main {
     border: .3rem solid #45FEFE;
 
     position: absolute;
-    top: 9rem;
+    top: 1rem;
 
 
     z-index: 1;
